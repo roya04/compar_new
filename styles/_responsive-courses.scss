@@ -1,0 +1,158 @@
+@media (max-width: 992px) {
+    .tab-info-img {
+        display: none;
+    }
+
+    .our-goal-none {
+        display: none;
+    }
+
+    .course-container2 {
+        width: 90%;
+    }
+}
+
+@media(min-width:600px) {
+    .nav {
+        display: flex;
+        justify-content: space-around;
+
+        .nav-item {
+            display: block;
+
+            .nav-link {
+                width: 100% !important;
+                padding: 2px;   
+                font-size: 13px;
+            }
+
+
+        }
+    }
+}
+
+
+
+@media(min-width:540px) {
+    .instructor {
+
+        .instructor-img {
+            .instructor-name {
+                .txt-box {
+                    left: 11%;
+
+                    h4 {
+                        font-size: 21px;
+
+                    }
+
+                    p {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav {
+
+        .nav-item {
+            .nav-link {
+                width: 40%;
+            }
+
+
+        }
+    }
+
+}
+
+@media(min-width:768px) {
+
+    .instructor {
+        justify-content: center;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .instructor-img {
+            .instructor-name {
+                .txt-box {
+                    left: 11%;
+
+                    h4 {
+                        font-size: 19px;
+
+                    }
+
+                    p {
+                        font-size: 12.5px;
+                    }
+                }
+            }
+        }
+    }
+
+    #courses-first {
+
+        .courses-first-main-box {
+
+
+            .img-overlay {
+
+                width: 200px;
+
+
+
+            }
+
+            &::before,
+            &::after {
+
+                inset: auto 200px 0 auto;
+
+
+            }
+        }
+    }
+
+    .nav {
+        justify-content: center;
+
+        .nav-item {
+            .nav-link {
+                padding: 3px;
+                font-size: 15px;
+            }
+
+
+        }
+    }
+}
+
+
+
+@media(min-width:1200px) {
+
+    .instructor {
+
+        .instructor-img {
+            .instructor-name {
+                .txt-box {
+                    left: 11%;
+
+                    h4 {
+                        font-size: 24px;
+
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+}
